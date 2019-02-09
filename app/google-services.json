@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151913293365",
+    "firebase_url": "https://atm20-fb867.firebaseio.com",
+    "project_id": "atm20-fb867",
+    "storage_bucket": "atm20-fb867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151913293365:android:e34986c730a45817",
+        "android_client_info": {
+          "package_name": "tom.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151913293365-63ivrcb9m4rmi39t0j5phbdksmpa0duh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tom.com",
+            "certificate_hash": "f5aea8a58aac63ec3849670796c82aefc586ab56"
+          }
+        },
+        {
+          "client_id": "151913293365-keg3vvi74pf8hb22ufdon84kq3bt0946.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9__DVxPMChZDzC0au9y-px8vfCx2Xxs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151913293365-keg3vvi74pf8hb22ufdon84kq3bt0946.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

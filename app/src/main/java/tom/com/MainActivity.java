@@ -10,18 +10,21 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity extends AppCompatActivity {
-    private static final int REQUEST_LOGIN = 100;
+   // private static final int REQUEST_LOGIN = 100;
     boolean logon = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         if(!logon){
             Intent intent = new Intent(this,LoginActivity.class);
-            startActivityForResult(intent,REQUEST_LOGIN);
+//            startActivityForResult(intent,REQUEST_LOGIN);
 
-            //startActivity(intent);
+            startActivity(intent);
         }
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -37,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_LOGIN) {
-            if (requestCode != RESULT_OK) {  //是不是正常
-                finish();
-            }
-        }
-    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        if (requestCode == REQUEST_LOGIN) {
+//            if (requestCode != RESULT_OK) {  //是不是正常
+//                finish();
+//            }
+//        }
+//    }
 
         @Override
         public boolean onCreateOptionsMenu (Menu menu){
